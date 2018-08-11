@@ -1,0 +1,30 @@
+nav{
+  border-bottom: solid 3px #fbd35d;
+}
+
+section{
+  background-color: #dedede;
+}
+
+.titulo::after{
+  content: "";
+  display: block;
+  border: solid 3px #f16524;
+  width: 200px;
+  margin: 10px auto 0 auto;
+}
+
+.altera{
+  width: 35%;
+  height: 200px;
+  border: solid 5px black;
+  border-radius: 100%;
+}
+
+.transparencia{
+  opacity: .7;
+}
+
+.borda{
+  border: solid 3px black;
+}

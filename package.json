@@ -1,0 +1,18 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Site desenvolvido com o intuito de colocar todos os conhecimentos adquiridos no curso em pratica",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rodolfo Santos Silveira",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}
