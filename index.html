@@ -38,24 +38,24 @@
     </header>
     <section>
         <div class="container text-center pt-5">
-            <h1 class="display-4 titulo">Desenvolvedor Front-End</h1>
+            <h1 class="titulo">Desenvolvedor Front-End</h1>
         </div>
         <div class="container pb-5">
             <div class="row py-5">
-                <div class="col-4">
+                <div class="col-md-4 py-3">
                     <img src="./src/imgs/html.png"  class="img-fluid d-block" alt="html">
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 py-3">
                     <img src="./src/imgs/CSS3.png"  class="img-fluid d-block" alt="css">
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 py-3">
                     <img src="./src/imgs/js.png"  class="img-fluid d-block" alt="js">
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container my-5">
             <div class="text-center my-5">
-                <h2 class="display-4 titulo">Web Moderna</h2>
+                <h2 class="titulo">Web Moderno</h2>
             </div>
             <div id="carouselSlide" class="carousel slide borda" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -84,17 +84,36 @@
                 </a>
             </div>
         </div>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-6">
-                    <img src="./src/imgs/perfil.jpg" class="img-fluid d-block altera" alt="perfil">
-                </div>
-                <div class="col-6">
-                    <h3>Sobre:</h3>
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam atque alias in, facere tempora dolorem et maiores</p>
+        <article>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 my-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img-fluid d-block alteraImg" src="./src/imgs/perfil.jpg" alt="perfil">
+                            <div class="card-body">
+                                <h5 class="card-title">Rodolfo Santos Silveira</h5>
+                                <p class="card-text">Graduando em Redes de Computadores com conhecimento em Desenvolvimento Web e foco em Banco de dados.</p>
+                                <button class="btn btn-primary">Saber Mais!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-3" wb-moderno>
+                        <h3 class="display-5 mb-5">Conhecimento em Web:</h3>
+                        <ul>
+                            <li>Html5</li>
+                            <li>css3</li>
+                            <li>javascript</li>
+                            <li>bootstrap 4</li>
+                            <li>jquery</li>
+                            <li>gulp</li>
+                            <li>webpack</li>
+                            <li>Node</li>   
+                            <li>express</li>      
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </article>
     </section>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
