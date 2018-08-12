@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="./src/css/estilo.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="home">
         <div>
             <img class="img-fluid d-block" src="./src/imgs/img01.jpg" alt="imagem-topo">
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-            <a class="navbar-brand" href="#">Rodolfo Silveira</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top menu">
+            <a class="navbar-brand logo" href="#">Rodolfo Silveira</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#sobre">Sobre</a>
@@ -94,25 +94,16 @@
                             <div class="card-body">
                                 <h5 class="card-title">Rodolfo Santos Silveira</h5>
                                 <p class="card-text">Graduando em Redes de Computadores com conhecimento em Desenvolvimento Web e foco em Banco de dados.</p>
-                                <button id="monitor" class="btn btn-primary">Saber Mais!</button>
+                                <button id="historico" class="btn btn-primary mb-1">Histórico</button>
+                                <button id="conhecimento" class="btn btn-primary">Conhecimentos</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 my-3 ml-auto">
                         <div wb-moderno>
-                            <h3 class="display-5 mb-5">Conhecimento em Web:</h3>
-                            <ul>
-                                <li>Html5</li>
-                                <li>css3</li>
-                                <li>javascript</li>
-                                <li>bootstrap 4</li>
-                                <li>jquery</li>
-                                <li>gulp</li>
-                                <li>webpack</li>
-                                <li>Node</li>   
-                                <li>express</li>      
-                            </ul>
-                        </div>
+                            <h2>Deseja saber mais sobre min ?</h2>
+                            <p class="lead">Navegue entre os botoes ao lado. Histórico e Conhecimentos</p>
+                        </div>    
                     </div>
                 </div>
             </div>
