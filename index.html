@@ -7,6 +7,7 @@
     <meta name="author" content="Rodolfo Santos Silveira">
     <title>Rodolfo Silveira</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./src/css/estilo.css">
 </head>
 <body>
@@ -26,10 +27,10 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
 
@@ -84,49 +85,50 @@
                 </a>
             </div>
         </div>
-        <article>
+        <article id="sobre">
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-md-6 my-3">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-3 my-3">
+                        <div class="card">
                             <img class="card-img-top img-fluid d-block alteraImg" src="./src/imgs/perfil.jpg" alt="perfil">
                             <div class="card-body">
                                 <h5 class="card-title">Rodolfo Santos Silveira</h5>
                                 <p class="card-text">Graduando em Redes de Computadores com conhecimento em Desenvolvimento Web e foco em Banco de dados.</p>
-                                <button class="btn btn-primary">Saber Mais!</button>
+                                <button id="monitor" class="btn btn-primary">Saber Mais!</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 my-3" wb-moderno>
-                        <h3 class="display-5 mb-5">Conhecimento em Web:</h3>
-                        <ul>
-                            <li>Html5</li>
-                            <li>css3</li>
-                            <li>javascript</li>
-                            <li>bootstrap 4</li>
-                            <li>jquery</li>
-                            <li>gulp</li>
-                            <li>webpack</li>
-                            <li>Node</li>   
-                            <li>express</li>      
-                        </ul>
+                    <div class="col-md-6 my-3 ml-auto">
+                        <div wb-moderno>
+                            <h3 class="display-5 mb-5">Conhecimento em Web:</h3>
+                            <ul>
+                                <li>Html5</li>
+                                <li>css3</li>
+                                <li>javascript</li>
+                                <li>bootstrap 4</li>
+                                <li>jquery</li>
+                                <li>gulp</li>
+                                <li>webpack</li>
+                                <li>Node</li>   
+                                <li>express</li>      
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
     </section>
+    <footer id="contato">
+        <div class="container">
+            <div class="row pt-2">
+                <p class="lead pl-1">Desenvolvido em 2018</p>
+                <a class="ml-auto lead redeSocial pr-1" href="https://www.linkedin.com/in/rodolfo-santos-silveira-a4b234169/" target="_blank">Linked<i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./src/js/script.js"></script>
-    <script>
-        $(window).on('scroll', function() {
-            if($(window).scrollTop()) {
-                $('nav').addClass('transparencia');
-            }else {
-                $('nav').removeClass('transparencia').css({"transition":"1s ease-out"});
-            }
-        });
-    </script>
 </body>
 </html>

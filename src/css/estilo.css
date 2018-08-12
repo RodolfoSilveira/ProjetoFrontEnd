@@ -1,3 +1,12 @@
+@font-face{
+  font-family: "desyrel";
+  src: url("../fonts/desyrel.ttf")
+}
+
+h1,h2,h3{
+  font-family: "desyrel";
+}
+
 nav{
   border-bottom: solid 3px #fbd35d;
 }
@@ -37,4 +46,19 @@ article{
 article li{
   text-transform: uppercase;
   padding: 5px;
+}
+
+footer{
+  background-color: #283e4a;
+  color: #ffffff;
+}
+
+.redeSocial{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.redeSocial:hover{
+  text-decoration: none;
+  color: #fbd35d;
 }
